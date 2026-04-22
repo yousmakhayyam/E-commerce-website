@@ -6,6 +6,7 @@ import { OrderPage } from './Pages/Orders/OrderPage';
 import { TrackingPage } from './Pages/TrackingPage';
 import './App.css'
 import { useEffect, useState } from 'react';
+axios.defaults.baseURL = 'https://e-commerce-website-production-d68c.up.railway.app';
 
 function App() {
   const [cart, setCart] = useState([]);
